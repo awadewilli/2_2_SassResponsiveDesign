@@ -5823,7 +5823,6 @@ button.close {
   src: url(Montserrat-Bold.otf); }
 .container {
   width: 95%;
-  margin: auto;
   padding-left: 30px; }
 
 body::before {
@@ -5840,6 +5839,20 @@ body {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; }
+
+.arrow {
+  position: absolute;
+  background-image: url("../images/arrow.png");
+  width: 270px;
+  height: 100px;
+  top: 1000px;
+  right: 1100px;
+  z-index: 2; }
+
+.arrow h4 {
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px; }
 
 .row {
   margin-bottom: 20px;
